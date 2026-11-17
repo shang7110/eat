@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+data
+data-test
+*.log
+test-local.js
+.git
+.DS_Store

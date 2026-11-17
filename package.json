@@ -1,0 +1,19 @@
+{
+  "name": "miao-erase-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "秒去水印 —— 抖音云托管后端（原微信云函数迁移）",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "jimp": "^0.22.12"
+  }
+}
